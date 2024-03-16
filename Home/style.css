@@ -1,5 +1,5 @@
 body{
-    background: #b76464;
+    background: #b77364;
 }
 
 .title{
@@ -7,7 +7,6 @@ body{
 }
 
 .epigraph{
-    color: black;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -26,4 +25,12 @@ body{
 .animals{
     margin: 20px;
     width: 20vw;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(154, 193, 63, 0.502);
+    border-radius:10%;
+}
+.animals:hover{
+    transform: scale(1.05);
 }
